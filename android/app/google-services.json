@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1542600288",
+    "project_id": "technical-test-baguer",
+    "storage_bucket": "technical-test-baguer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1542600288:android:3cdb61204ad1dd35a7b505",
+        "android_client_info": {
+          "package_name": "com.example.technical_test_baguer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1542600288-kiitp5bhhbmqd436t3n8khae3bqt6ijg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.technical_test_baguer",
+            "certificate_hash": "ecc7e5c2d7ab321c4fb1f2bb0f9319914e3b2d36"
+          }
+        },
+        {
+          "client_id": "1542600288-nhc6vslo6klunddd3ckrcd6q458obefe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtmDEOtuV07KTZEn1B_GBRNZWTL3bX-O8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1542600288-nhc6vslo6klunddd3ckrcd6q458obefe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
