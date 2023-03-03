@@ -47,6 +47,7 @@ class HomeScreen extends StatelessWidget {
             ),
             body: Center(
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Container(
                     padding: const EdgeInsets.only(top: 20, bottom: 10),
@@ -57,17 +58,12 @@ class HomeScreen extends StatelessWidget {
                   ),
                   Container(
                     padding: const EdgeInsets.only(
-                        bottom: 10, top: 10, left: 10, right: 10),
+                      bottom: 10,
+                      top: 10,
+                    ),
                     child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        // Container(
-                        //   margin: const EdgeInsets.only(left: 10),
-                        //   width: 30,
-                        //   child: const Text(
-                        //     "#",
-                        //     style: TextStyle(fontSize: 16),
-                        //   ),
-                        // ),
                         Container(
                           margin: const EdgeInsets.only(left: 10, right: 5),
                           width: 50,
@@ -107,22 +103,14 @@ class HomeScreen extends StatelessWidget {
                   ),
                   Container(
                     height: size.height - 200,
-                    margin: const EdgeInsets.only(top: 10, left: 10, right: 10),
+                    margin: const EdgeInsets.only(top: 10),
                     child: ListView.builder(
                         itemCount: users.length,
                         itemBuilder: (context, index) => Container(
                               padding: const EdgeInsets.only(bottom: 20),
                               child: Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
-                                  // Container(
-                                  //   width: 40,
-                                  //   padding: const EdgeInsets.only(left: 15),
-                                  //   margin: const EdgeInsets.only(right: 5),
-                                  //   child: Text(
-                                  //     "${index + 1}",
-                                  //     style: const TextStyle(fontSize: 16),
-                                  //   ),
-                                  // ),
                                   Container(
                                     height: 50,
                                     width: 50,
